@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "SportBuddy",
+    "slug": "frontend",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/sportbuddyIcon.png",
+    "scheme": "frontend",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "icon": "./assets/expo.icon"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/sportbuddyIcon.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.pedro.p0.frontend",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBS6XgLRfFqP9goYdEHCzBagjeYzhTksWA"
+        }
+      }
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/sportbuddyIcon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#208AEF",
+          "android": {
+            "image": "./assets/images/splash-icon.png",
+            "imageWidth": 76
+          }
+        }
+      ],
+      "@react-native-community/datetimepicker",
+      "@react-native-google-signin/google-signin"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "525c06be-cb8c-44a3-8727-92437ec80269"
+      }
+    }
+  }
+}

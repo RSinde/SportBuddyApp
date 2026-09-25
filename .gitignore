@@ -1,0 +1,11 @@
+node_modules/
+dist/
+
+# Environment variables — never commit
+.env
+.env.local
+.env*.local
+
+# Firebase Admin private key — never commit
+serviceAccountKey.json
+*-firebase-adminsdk-*.json

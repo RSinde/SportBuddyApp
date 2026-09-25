@@ -1,0 +1,11 @@
+runtime: nodejs22
+env: standard
+instance_class: F4
+
+automatic_scaling:
+  min_instances: 1
+  max_instances: 50
+  target_cpu_utilization: 0.6
+  target_throughput_utilization: 0.6
+  max_concurrent_requests: 60
+  max_pending_latency: 500ms

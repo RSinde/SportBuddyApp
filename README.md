@@ -1,5 +1,7 @@
 # SportBuddy
 
+Live Demo (https://projeto-adc-teste.web.app)
+
 SportBuddy is an app that helps people find sports partners and organize sports activities in their area — from a casual game of football between friends to a padel class organized by a partner gym.
 
 It solves a common problem: wanting to play sports but having no one to play with, or not knowing what activities are happening nearby. Users discover activities on a map or in a filterable list, join them (or enter a waitlist if the organizer requires approval), chat with the other participants, and afterwards rate the activity and vote for its MVP. People who regularly organize activities can register a **partner/organization account**, with its own dashboard to manage sign-up requests.
